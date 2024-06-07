@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------Navbar---------- */
+.header {
+    background-color: #00002e;
+}
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 13px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    transition: 0.5s ease;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.fa-bars {
+    color: #fff !important;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+
+.home-active {
+    border-bottom: 3px solid #ff0;
+}
+
+.nav-link:hover {
+    border-bottom: 2.5px solid #ff0;
+}
+
+.banner {
+    margin-top: 5% !important;
+    color: #fff !important;
+}
+
+.banner h1 {
+    margin: 50px 0 55px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.banner img {
+    max-width: 450px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.banner img:hover {
+    transform: translateY(-20px);
+}
+
+.banner p {
+    font-size: 14px;
+    color: #808080;
+    font-weight: 400;
+}
+
+.banner a {
+    width: 150px;
+    padding: 12px;
+    display: inline-block;
+    background: transparent;
+    color: #fff !important;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner .express-btn {
+    color: #ff0 !important;
+    border: 2px solid #ff0;
+    transition: 1s ease;
+}
+
+.banner .express-btn:hover {
+    transform: translateY(-7px);
+}
+
+/* ----------Service---------- */
+.service {
+    margin: 130px 0;
+}
+
+.title {
+    line-height: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    color: #808080;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.service-box {
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 15px 15px 2px rgba(213, 213, 213, 0.5);
+    transition: 0.5s ease;
+}
+
+.service-box img {
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.service-box h6 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #808080;
+    transition: 0.5s ease;
+}
+
+.service-box:hover {
+    color: #ff0 !important;
+}
+
+.service-box:hover p {
+    color: #fff !important;
+}
+
+.service-box:hover,
+.active-service {
+    background: #00002e;
+    border-radius: 8px;
+    color: #ff0 !important;
+}
+
+.active-service p {
+    color: #fff !important;
+}
+
+.fa-arrow-right {
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+/* ----------Feature, Exploer---------- */
+.feature,
+.exploer {
+    margin: 150px 0;
+}
+
+.feature img {
+    max-width: 77%;
+    cursor: pointer;
+}
+
+.feature h2 {
+    margin-top: 13%;
+    line-height: 2.7rem;
+    font-weight: bold;
+}
+
+.feature p,
+.exploer p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 1.7rem;
+}
+
+.feature a,
+.exploer a {
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background-color: #00002e;
+    text-decoration: none;
+    color: #fff !important;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.feature a:hover,
+.exploer a:hover {
+    color: #ff0 !important;
+}
+
+.exploer h2 {
+    margin-top: 13%;
+    line-height: 2.7rem;
+    font-weight: bold;
+}
+
+.exploer a {
+    margin-bottom: 100px;
+}
+
+/* ----------About----------- */
+.about {
+    margin: 100px 0;
+}
+
+.carousel-item img {
+    width: 130px;
+    border-radius: 40%;
+}
+
+.carousel-item {
+    text-align: center;
+    height: 430px;
+}
+
+.carousel-caption {
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(000, 000, 000, 0.3);
+    border-radius: 8px;
+    margin-bottom: 70px;
+}
+
+.carousel-caption h6 {
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.carousel-caption small {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    color: #000 !important;
+}
+
+.carousel-caption p {
+    text-align: center;
+    font-size: 15px;
+    color: #808080 !important;
+    padding: 0 50px;
+}
+
+.carousel-indicators button {
+    background-color: #000 !important;
+}
+
+/* ----------Footer----------- */
+.footer {
+    padding-bottom: 15px;
+    background-color: #000;
+}
+
+.footer h2 {
+    color: #fff;
+    margin: 49px 0;
+    padding-top: 40px;
+}
+
+.footer input {
+    width: 60%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #eee;
+    font-size: 13px;
+}
+
+.footer button {
+    width: 180px;
+    padding: 6px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    background: transparent;
+    font-size: 18px;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+}
+
+.footer button:hover {
+    color: #ff0;
+}
+
+.footer small {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+
+    .banner h1 {
+        margin: 30px 0 30px;
+        line-height: 3.5rem;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .banner p {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .banner .btn {
+        margin-left: 180px;
+    }
+
+    .service .service-box {
+        columns: 3;
+        margin: 10px;
+        padding: 40px 0 20px 25px;
+    }
+
+    .service-box p {
+        line-height: 1.4rem;
+    }
+
+    .fa-arrow-right {
+        margin: 5px 0 0 80px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .feature img {
+        max-width: 50%;
+        /* display: block; */
+    }
+
+    /* .feature h2 {
+        margin-top: 13%;
+        line-height: 2.7rem;
+    } */
+
+    /* .feature, left, right {
+        columns: 2;
+    } */
+}
